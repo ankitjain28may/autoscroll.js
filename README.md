@@ -15,13 +15,33 @@ in your html file. It's better to initialize it in head tag.
 ##### Dependency : It depends on jquery. So initialize jquery before verticalScroller.js
 
 #General Notes
-The verticalScroller element is now accessible outside of the callback API via the jQuery.scroller() method.
+
+##Initialize
+With jQuery
+
 Example use:
 ```
 $('element').scroller();
 ```
 Note: element can be id or class or any html tag
 
+With vanilla JavaScript
+
+Example use:
+```
+var scroll = new Scroller('element');
+```
+Note: element can be id or class or any html tag
+
+Note: For id-
+```
+var scroll = new Scroller('#id');
+```
+
+Note: For class-
+```
+var scroll = new Scroller('.class');
+```
 <!-- ##Default options
 ```
 
@@ -38,6 +58,10 @@ for a div tag having id named "id-1"
 you can initialize it like this
 ```
 $("#id-1").scroller();
+```
+OR
+```
+var scroll = new Scroller('#id-1');
 ```
 
 Run this script in your browser...

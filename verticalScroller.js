@@ -1,5 +1,5 @@
  function Scroller(scrollId) {
-    this.AutoScroll = '#'+scrollId;
+    this.AutoScroll = scrollId;
     this.iScrollHeight = $(this.AutoScroll).prop('scrollHeight');
     this.iScrollTop = $(this.AutoScroll).prop("scrollTop");
     this.he = $(this.AutoScroll).height();
