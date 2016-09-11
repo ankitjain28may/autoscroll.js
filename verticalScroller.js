@@ -40,9 +40,8 @@
 // Vanilla Js Scroller function
 
 function Scroller(options) {
-    // console.log(options);
     var element = JSON.parse(options)['element'];
-    $(element).scroller(options)
+    $(element).scroller(options);
 }
 
 // With HTML using data-config
