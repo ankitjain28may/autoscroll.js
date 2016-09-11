@@ -1,11 +1,11 @@
 {
-  "name": "verticalscroller.js",
+  "name": "autoscroll.js",
   "version": "1.0.0",
-  "description": "Vertical Scroller is a Jquery plugin which is used to auto-scroll your content smoothly. It is less than 1KB when minified.",
-  "main": "verticalScroller.js",
+  "description": "Auto Scroll is a Jquery plugin which is used to auto-scroll your content smoothly. It is less than 1KB when minified.",
+  "main": "autoscroll.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ankitjain28may/verticalScroller.js.git"
+    "url": "https://github.com/ankitjain28may/autoscroll.js.git"
   },
   "keywords": [
     "AutoScroll",
@@ -20,9 +20,9 @@
   "authors": "Ankit Jain <ankitjain28may77@gmail.com> (http://ankitjain28may.github.io) ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ankitjain28may/verticalScroller.js/issues"
+    "url": "https://github.com/ankitjain28may/autoscroll.js/issues"
   },
-  "homepage": "https://github.com/ankitjain28may/verticalScroller.js",
+  "homepage": "https://github.com/ankitjain28may/autoscroll.js",
   "ignore": [
     "**/.*",
     "node_modules",

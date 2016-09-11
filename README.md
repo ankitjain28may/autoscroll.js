@@ -1,36 +1,36 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fb11e2e1d7554469853708d897a49dae)](https://www.codacy.com/app/ankitjain28may77/verticalScroller-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ankitjain28may/verticalScroller.js&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fb11e2e1d7554469853708d897a49dae)](https://www.codacy.com/app/ankitjain28may77/autoscroll-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ankitjain28may/autoscroll.js&amp;utm_campaign=Badge_Grade)
 
 
-# verticalScroller.js
+# autoscroll.js
 
->Vertical Scroller is a Jquery plugin which is used to auto-scroll your content smoothly .
+>Auto Scroll is a Jquery plugin which is used to auto-scroll your content smoothly .
 It is less than 1KB when minified.
 
 
-##How To use Vertical Scroller
+##How To use Auto Scroll
 
-It is very easy to install, just copy and paste the verticalScroller.js in your js root folder and then initialize its path
+It is very easy to install, just copy and paste the autoscroll.js in your js root folder and then initialize its path
 in your html file. It's better to initialize it in head tag.
 ```
 <head>
  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 
- <script src="path/to/verticalScroller.js"></script>
+ <script src="path/to/autoscroll.js"></script>
 </head>
 ```
-*** Dependency : It depends on jquery. So initialize jquery before verticalScroller.js***
+*** Dependency : It depends on jquery. So initialize jquery before autoscroll.js***
 
-# Download verticalScroller.js
+# Download autoscroll.js
 ##Using npm
 
 ```
-npm install verticalscroller.js
+npm install autoscroll.js
 ```
 
 ##Install using bower
 
 ```
-bower install verticalscroller.js
+bower install autoscroll.js
 ```
 
 

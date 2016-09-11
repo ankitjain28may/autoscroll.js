@@ -6,6 +6,7 @@
 // jQuery Function scroller
 (function( $ ){
    $.fn.scroller = function(options) {
+        options = options || '{"delay" : 2000 ,"amount" : 100 }';
         options = JSON.parse(options);
         this.delay = parseInt(options["delay"]) || 2000;
         this.amount = parseInt(options["amount"]) || 100;
