@@ -20,39 +20,40 @@ in your html file. It's better to initialize it in head tag.
 #General Notes
 
 ##Initialize
-With jQuery
+###With jQuery
 
-Example use:
-```
+```js
 $('element').scroller();
 ```
+
+###With vanilla JavaScript
+
+```js
+var scroll = new Scroller('{"element" : element }');
+```
+
+###With HTML
+Add a `data-config` attribute to your element. Options can be set in JSON in the value.
+
+``` html
+<div class="scroller" id="id-1" data-config='{ "amount": 150, "delay": 1500 }'>
+  <div class="item"></div>
+  <div class="item"></div>
+  ...
+</div>
+```
 Note: element can be id or class or any html tag
 
-With vanilla JavaScript
-
-Example use:
+##Default options
 ```
-var scroll = new Scroller('element');
-```
-Note: element can be id or class or any html tag
-
-Note: For id-
-```
-var scroll = new Scroller('#id');
+{"amount" : 100 , "delay" : 2000 } //2000ms and 100px
 ```
 
-Note: For class-
+##Add your options
 ```
-var scroll = new Scroller('.class');
-```
-<!-- ##Default options
+{"amount" : 200 , "delay" : 1500 }
 ```
 
-``` -->
-<!-- ##Add your options
-```
-
-``` -->
 #Example
 for a div tag having id named "id-1"
 ```
@@ -60,12 +61,24 @@ for a div tag having id named "id-1"
 ```
 you can initialize it like this
 ```
-$("#id-1").scroller();
+$("#id-1").scroller('{"amount" : 150, "delay" : 1500 }');
 ```
 OR
 ```
-var scroll = new Scroller('#id-1');
+var scroll = new Scroller('{"element" : "#id-1", "amount" : 150, "delay" : 1500 }');
 ```
+OR
+
+By using HTML
+``` html
+<div class="scroller" id="id-1" data-config='{ "amount": 150, "delay": 1500 }'>
+  <div class="item"></div>
+  <div class="item"></div>
+  ...
+</div>
+```
+#License
+Copyright (c) 2016 Ankit Jain - Released under the MIT License
 
 Run this script in your browser...
 Enjoy Cheers !!
