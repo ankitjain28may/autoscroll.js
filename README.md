@@ -20,6 +20,20 @@ in your html file. It's better to initialize it in head tag.
 ```
 *** Dependency : It depends on jquery. So initialize jquery before verticalScroller.js***
 
+# Download verticalScroller.js
+##Using npm
+
+```
+npm install verticalscroller.js
+```
+
+##Install using bower
+
+```
+bower install verticalscroller.js
+```
+
+
 #General Notes
 
 ##Initialize
