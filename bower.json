@@ -1,7 +1,8 @@
 {
   "name": "verticalscroller.js",
+  "version": "1.0.0",
   "description": "Vertical Scroller is a Jquery plugin which is used to auto-scroll your content smoothly. It is less than 1KB when minified.",
-  "main": "dist/verticalScroller.min.js",
+  "main": "verticalScroller.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ankitjain28may/verticalScroller.js.git"
