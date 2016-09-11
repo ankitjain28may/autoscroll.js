@@ -7,10 +7,10 @@
 (function( $ ){
    $.fn.scroller = function(options) {
         options = JSON.parse(options);
-        this.delay = parseInt(options['delay']) || 2000;
-        this.amount = parseInt(options['amount']) || 100;
+        this.delay = parseInt(options["delay"]) || 2000;
+        this.amount = parseInt(options["amount"]) || 100;
         this.autoScroll = $(this.selector);
-        this.iScrollHeight = this.autoScroll.prop('scrollHeight');
+        this.iScrollHeight = this.autoScroll.prop("scrollHeight");
         this.iScrollTop = this.autoScroll.prop("scrollTop");
         this.iHeight = this.autoScroll.height();
 
@@ -40,13 +40,13 @@
 // Vanilla Js Scroller function
 
 function Scroller(options) {
-    var element = JSON.parse(options)['element'];
+    var element = JSON.parse(options)["element"];
     $(element).scroller(options);
 }
 
 // With HTML using data-config
 
-ele = document.querySelectorAll('.scroller');
+var ele = document.querySelectorAll(".scroller");
 var i=0;
 var options = "";
 var element = "";
