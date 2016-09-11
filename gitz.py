@@ -7,7 +7,7 @@ cmds = [
     "git add .",
     "git commit -m ",
     "git status",
-    "git push",
+    "git push"
 ]
 print "Enter a commit message or $ for manual git"
 commitMessage = "'" + raw_input().strip() + "'"
@@ -18,6 +18,6 @@ else:
     for cmd in cmds:
         query = cmd.split()
         process = subprocess.Popen(query, stdout=subprocess.PIPE)
-        print = process.communicate()[0]
+        print process.communicate()[0]
 
 print 'All done!'
