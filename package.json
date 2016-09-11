@@ -1,0 +1,25 @@
+{
+  "name": "vertical-scroller.js",
+  "version": "1.0.0",
+  "description": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fb11e2e1d7554469853708d897a49dae)](https://www.codacy.com/app/ankitjain28may77/verticalScroller-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ankitjain28may/verticalScroller.js&amp;utm_campaign=Badge_Grade)",
+  "main": "verticalScroller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitjain28may/verticalScroller.js.git"
+  },
+  "keywords": [
+    "AutoScroll",
+    "Vertical",
+    "Scroll",
+    "Scroller"
+  ],
+  "author": "Ankit Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ankitjain28may/verticalScroller.js/issues"
+  },
+  "homepage": "https://github.com/ankitjain28may/verticalScroller.js#readme"
+}

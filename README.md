@@ -1,3 +1,6 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fb11e2e1d7554469853708d897a49dae)](https://www.codacy.com/app/ankitjain28may77/verticalScroller-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ankitjain28may/verticalScroller.js&amp;utm_campaign=Badge_Grade)
+
+
 # verticalScroller.js
 
 >Vertical Scroller is a Jquery plugin which is used to auto-scroll your content smoothly .
