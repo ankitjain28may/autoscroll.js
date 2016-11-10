@@ -51,7 +51,7 @@ var scroll = new Scroller('{"element" : element }');
 ```
 
 ###With HTML
-Add a `data-config` attribute to your element. Options can be set in JSON in the value.
+Add a `data-config` attribute to your element and a class `scroller`. Options can be set in JSON in the value.
 
 ``` html
 <div class="scroller" id="id-1" data-config='{ "amount": 150, "delay": 1500 }'>
