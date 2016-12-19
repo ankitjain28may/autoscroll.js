@@ -1,6 +1,6 @@
 {
   "name": "autoscroll.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Auto Scroll is a Jquery plugin which is used to auto-scroll your content smoothly. It is less than 1KB when minified.",
   "main": "dist/autoscroll.min.js",
   "repository": {
