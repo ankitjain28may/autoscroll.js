@@ -8,33 +8,35 @@
    $.fn.scroller = function(options) {
         options = options || '{"delay" : 2000 ,"amount" : 100 }';
         options = JSON.parse(options);
-        this.delay = parseInt(options["delay"]) || 2000;
-        this.amount = parseInt(options["amount"]) || 100;
-        this.autoScroll = $(this.selector);
-        this.iScrollHeight = this.autoScroll.prop("scrollHeight");
-        this.iScrollTop = this.autoScroll.prop("scrollTop");
-        this.iHeight = this.autoScroll.height();
+        this.each(function () {
+            this.delay = parseInt(options["delay"]) || 2000;
+            this.amount = parseInt(options["amount"]) || 100;
+            this.autoScroll = $(this);
+            this.iScrollHeight = this.autoScroll.prop("scrollHeight");
+            this.iScrollTop = this.autoScroll.prop("scrollTop");
+            this.iHeight = this.autoScroll.height();
 
-        var self = this;
-        this.timerId = setInterval(function () {
-            if(self.iScrollTop+self.iHeight < self.iScrollHeight)
-            {
-                self.iScrollTop = self.autoScroll.prop("scrollTop");
-                self.iScrollTop+=self.amount;
-                self.autoScroll.animate(
-                    {scrollTop: self.iScrollTop},
-                    "slow",
-                    "linear");
-            }
-            else
-            {
-                self.iScrollTop-=self.iScrollTop;
-                self.autoScroll.animate(
-                    {scrollTop: "0px"},
-                    "fast",
-                    "swing");
-            }
-        }, self.delay);
+            var self = this;
+            this.timerId = setInterval(function () {
+                if(self.iScrollTop+self.iHeight < self.iScrollHeight)
+                {
+                    self.iScrollTop = self.autoScroll.prop("scrollTop");
+                    self.iScrollTop+=self.amount;
+                    self.autoScroll.animate(
+                        {scrollTop: self.iScrollTop},
+                        "slow",
+                        "linear");
+                }
+                else
+                {
+                    self.iScrollTop-=self.iScrollTop;
+                    self.autoScroll.animate(
+                        {scrollTop: "0px"},
+                        "fast",
+                        "swing");
+                }
+            }, self.delay);
+        });
     };
 })( jQuery );
 
