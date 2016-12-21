@@ -1,6 +1,6 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fb11e2e1d7554469853708d897a49dae)](https://www.codacy.com/app/ankitjain28may77/autoscroll-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ankitjain28may/autoscroll.js&amp;utm_campaign=Badge_Grade)
 [![npm](https://img.shields.io/npm/dt/autoscroll.js.svg)](https://www.npmjs.com/package/autoscroll.js)
-
+[![Gitter](https://badges.gitter.im/ankitjain28may/autoscroll.js.svg)](https://gitter.im/ankitjain28may/autoscroll.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # autoscroll.js
 
