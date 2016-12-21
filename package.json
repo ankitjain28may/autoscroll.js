@@ -1,0 +1,28 @@
+{
+  "name": "autoscroll.js",
+  "version": "1.0.2",
+  "description": "Auto Scroll is a Jquery plugin which is used to auto-scroll your content smoothly. It is less than 1KB when minified.",
+  "main": "dist/autoscroll.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitjain28may/autoscroll.js.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "jquery",
+    "autoscroll",
+    "vertical",
+    "scroll",
+    "scroller",
+    "slider",
+    "vertical slider",
+    "autoscroller",
+    "vertical scroller"
+  ],
+  "author": "Ankit Jain <ankitjain28may77@gmail.com> (http://ankitjain28may.github.io) ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ankitjain28may/autoscroll.js/issues"
+  },
+  "homepage": "https://github.com/ankitjain28may/autoscroll.js#readme"
+}
