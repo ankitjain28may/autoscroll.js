@@ -8,7 +8,7 @@
 It is less than 1KB when minified.
 
 
-##How To use Auto Scroll
+## How To use Auto Scroll
 
 It is very easy to install, just copy and paste the autoscroll.js in your js root folder and then initialize its path
 in your html file. It's better to initialize it in head tag.
@@ -19,38 +19,38 @@ in your html file. It's better to initialize it in head tag.
  <script src="path/to/autoscroll.js"></script>
 </head>
 ```
-*** Dependency : It depends on jquery. So initialize jquery before autoscroll.js***
+_** Dependency : It depends on jquery. So initialize jquery before autoscroll.js**_
 
 # Download autoscroll.js
-##Using npm
+## Using npm
 
 ```
 npm install autoscroll.js
 ```
 
-##Install using bower
+## Install using bower
 
 ```
 bower install autoscroll.js
 ```
 
 
-#General Notes
+# General Notes
 
-##Initialize
-###With jQuery
+## Initialize
+### With jQuery
 
 ```js
 $('element').scroller();
 ```
 
-###With vanilla JavaScript
+### With vanilla JavaScript
 
 ```js
 var scroll = new Scroller('{"element" : element }');
 ```
 
-###With HTML
+### With HTML
 Add a `data-config` attribute to your element and a class `scroller`. Options can be set in JSON in the value.
 
 ``` html
@@ -62,17 +62,17 @@ Add a `data-config` attribute to your element and a class `scroller`. Options ca
 ```
 Note: element can be id or class or any html tag
 
-##Default options
+## Default options
 ```
 {"amount" : 100 , "delay" : 2000 } //2000ms and 100px
 ```
 
-##Add your options
+## Add your options
 ```
 {"amount" : 200 , "delay" : 1500 }
 ```
 
-#Example
+# Example
 for a div tag having id named "id-1"
 ```
 <div id="id-1"></div>
@@ -95,10 +95,8 @@ By using HTML
   ...
 </div>
 ```
-#License
+# License
 Copyright (c) 2016 Ankit Jain - Released under the MIT License
 
 Run this script in your browser...
 Enjoy Cheers !!
-
-
